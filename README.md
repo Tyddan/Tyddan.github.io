@@ -1,8 +1,4 @@
-# Wedding Site Template
-
-A simple, responsive, easy-to-edit wedding website template.
-
-[Demo](https://jasonlutterloh.github.io/wedding-site-template/)
+# My wedding site
 
 ## Overview
 
@@ -27,9 +23,6 @@ To override the stock image, you have two options:
 1. Replace `img/hero.jpeg` with your own image (but keep the filename the same).
 2. Replace the header `background-image` file path in `theme.css` with the path to your image.
 
-### Details
-
-The template is initialized with a few "Details" sections (When, Location, Lodging, etc). Change these to whatever you'd like using the HTML.
 
 ### Iconography
 
@@ -44,12 +37,6 @@ To add/change icons, find the icon you like on their page and then use the follo
 #### Versioning
 
 I would've liked to include this library using a CDN instead of including the files locally but FontAwesome requires an email address to use their CDN so you're on own configuring that.
-
-### RSVP
-
-The template comes with a blank RSVP section as everyone likes to do this differently (and not many people create their own methods of sending data).
-
-I recommend creating the RSVP in Google Forms and embedding the form in an iFrame (provided by commented out). However, your free to handle this however you'd like.
 
 ## Technical Details
 
