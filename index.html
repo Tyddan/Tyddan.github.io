@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Amanda & Magnus</title>
+    <link rel="stylesheet" type="text/css" href="theme.css"> 
+    <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="heading">
+        Amanda & Magnus
+        <span class="heading-subtext"> vi ska gifta oss!</span>
+      </h1>
+    </header>
+    <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">OSA</a> 
+    <section class="section">
+      <h2 class="sub-heading">Om bröllopet</h2>
+      <p>Efter 8 år tillsammans har vi valt att säga JA till resten av livet tillsammans. Den 27 maj vill vi dela vår glädje med er genom att bjuda in till fest vid natursköna Abborreberg,</p>
+    </section>
+    <section class="section">
+      <h2 class="sub-heading">Detaljer</h2>
+      <div class="details">
+        <i class="fas fa-calendar-check"></i>
+        <h3 class="details-heading">När</h3>
+        <p>27 maj, 2023</p>
+      </div>
+      <div class="details">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3 class="details-heading">Plats</h3>
+        <p><a rel="noopener" href="#">Abborreberg</a>, Norrköping</p>
+        <img class="resort-image" src="./img/abborreberg.jpeg" alt="Resort" />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2078.2013214834196!2d16.270856716143367!3d58.608957781412556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46593abdb8d152e9%3A0xd99a3a9241639116!2sAbborrebergs%20Veranda!5e0!3m2!1ssv!2sse!4v1661541729972!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="details">
+        <i class="fas fa-suitcase"></i>
+        <h3 class="details-heading">Boende</h3>
+        <p>Vi har bokat vandrarhemmet på Abborreberg. Önskar du bo där mejla.... och ange hur många bäddar ni vill ha.</p>
+      </div>
+      <div class="details">
+        <i class="fas fa-suitcase"></i>
+        <h3 class="details-heading">Gåvor</h3>
+        <p>Vi har det mesta vi önskar och önskar oss endast bidrag till en bröllopsresa.</p>
+      </div>
+      <div class="details">
+        <i class="fas fa-suitcase"></i>
+        <h3 class="details-heading">Toastmadammes</h3>
+        <p>För att hålla tal...</p>
+      </div>
+      <div class="details">
+        <i class="fas fa-asterisk"></i>
+        <h3 class="details-heading">Other Notes</h3>
+        <p>Cake dessert mother guitar acoustic bass cheers, uncle joe seat covers guitar acoustic bass macarena seat covers cake dessert embarrassing.</p>
+        <p>Also, your presence is the only present we desire. No gift required.</p>
+      </div>
+      <div class="details">
+        <i class="fas fa-reply"></i>
+        <h3 class="details-heading" id="rsvp">OSA</h3>
+        <!-- Include Embedded link of Google Form here in place of # -->
+        <!-- <iframe title="RSVP" src="" style="width:100%;" height="960" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTu_UZ0Wwmk58HKgJwrIGIaDyYzIKXSMT2mgPrbTU9cM-DhQ/viewform?embedded=true" width="640" height="923" frameborder="0" marginheight="0" marginwidth="0">Läser in …</iframe>
+      </div>
+    </section>
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script defer>
+      var scroll = new SmoothScroll('a[href*="#"]');
+      var rsvpButton = document.getElementById('rsvpButton')
+      rsvpButton.addEventListener('click',hideButton,false);
+
+      function hideButton() {
+        rsvpButton.style.display = 'none';
+      }   
+    </script>
+  </body>
+</html>
