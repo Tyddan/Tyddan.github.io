@@ -1,6 +1,6 @@
 *{
     font-family: 'Pompiere', cursive;
-    font-size: 16px;
+    font-size: 22px;
     color: #222;
 }
 html, body{
@@ -23,7 +23,7 @@ html, body{
     color: #ffffff;
     display: block;
     font-family: 'Pompiere', cursive;
-    font-size: 6em;
+    font-size: 4em;
     font-weight: normal;
     text-shadow: 0 0 10px #000;
     padding-top: 15vh;
@@ -32,7 +32,7 @@ html, body{
     color: #fff;
     display: block;
     font-family: 'Pompiere', cursive;
-    font-size: .3em;
+    font-size: .2em;
 }
 .fixed-button{
     background: rgba(20,20,20,.5);
@@ -78,14 +78,32 @@ html, body{
 }
 .fas {
     font-size: 3em;
-    opacity: .8;
+    opacity: .6;
+    -webkit-text-stroke: 3px snow;
 }
 .resort-image{
     width: 100%
+}
+.map{
+    width:600px;
+    height:450px; 
+    border:0px;
+}
+.rsvp-form {
+    width:640px;
+    height:923px;
 }
 
 @media only screen and (max-width: 600px) {
     .heading {
         font-size: 4em;
+        padding-top: 10vh;
+    }
+    .map {
+        width: 350px;
+        height: 300px;
+    }
+    .rsvp-form {
+        width: 350px;
     }
   }
