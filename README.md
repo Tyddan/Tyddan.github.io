@@ -12,10 +12,6 @@ The project is comprised of the following:
 
 ## Page Components
 
-### Header
-
-The template is designed with an initial full viewport header with background image. The header is responsive but you may want to play want around with your image to make sure it looks good on a mobile phone.
-
 #### Header Instructions
 
 To override the stock image, you have two options:
@@ -33,10 +29,6 @@ The icons are provided by [FontAwesome](https://fontawesome.com/icons?d=gallery)
 To add/change icons, find the icon you like on their page and then use the following syntax to insert:
 
 ```<i class="fas fa-[ICON ID HERE]"></i>```
-
-#### Versioning
-
-I would've liked to include this library using a CDN instead of including the files locally but FontAwesome requires an email address to use their CDN so you're on own configuring that.
 
 ## Technical Details
 
