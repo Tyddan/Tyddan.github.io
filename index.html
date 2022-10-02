@@ -16,14 +16,30 @@
         <span class="heading-subtext"> 27 maj 2023</span>
       </h1>
     </header>
-    <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">OSA</a> 
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+  
+      <ul class="menu__box">
+        <li><a class="menu__item" href="#about">Om bröllopet</a></li>
+        <li><a class="menu__item" href="#details">Detaljer</a></li>
+        <li><a class="menu__item" href="#accomodation">Boende</a></li>
+        <li><a class="menu__item" href="#gifts">Gåvor</a></li>
+        <li><a class="menu__item" href="#toastmaster">Toastmaster & Toastmadamme</a></li>
+        <li><a class="menu__item" href="#friday">Kvällen innan</a></li>
+        <li><a class="menu__item" href="#contact">Kontakt</a></li>
+        <li><a class="menu__item" href="#rsvp">OSA</a></li>
+      </ul>
+    </div>
     <section class="section">
-      <h2 class="sub-heading">Om bröllopet</h2>
+      <h2 class="sub-heading" id="about">Om bröllopet</h2>
       <p>Efter 8 år tillsammans har vi valt att säga JA till resten av livet tillsammans. Den 27 maj vill vi dela vår glädje med er genom att bjuda in till fest vid natursköna Abborreberg,</p>
       <p>Du som är bjuden på bröllopet betyder mycket för oss och vi ser fram emot att få dela vår stora dag mer just Dig.</p>
     </section>
     <section class="section">
-      <h2 class="sub-heading">Detaljer</h2>
+      <h2 class="sub-heading" id="details">Detaljer</h2>
       <div class="container">
         <div class="item">
           <i class="fas fa-regular fa-clock"></i>
@@ -42,39 +58,39 @@
         <img class="resort-image" src="./img/abborreberg.jpeg" alt="Resort" />
         <p>Parkering finns i anslutning till området. Bor du i Norrköpings centrum finns också möjlighet att ta sig till området med buss. Gå på buss nummer 11 och gå av vid hållplats Abboreberg.  Hur du köper biljetter och när bussarna går hittar du på <a href="https://www.ostgotatrafiken.se/">östgötatrafikens hemsida</a>
 
-          Önskar ni taxi  kan ni kontakta <a href="tel:011-10 01 00">011-10 01 00</a>.</p>
+          Önskar ni taxi kan ni kontakta Taxi Östergötland:<a href="tel:011-10 01 00">011-10 01 00</a>.</p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2078.2013214834196!2d16.270856716143367!3d58.608957781412556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46593abdb8d152e9%3A0xd99a3a9241639116!2sAbborrebergs%20Veranda!5e0!3m2!1ssv!2sse!4v1661541729972!5m2!1ssv!2sse" class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="details">
         <i class="fas fa-bed"></i>
-        <h3 class="details-heading">Boende</h3>
+        <h3 class="details-heading" id="accomodation">Boende</h3>
         <p>Vi har bokat vandrarhemmet på Abborreberg där det finns upp till 80 bäddar. Vandrarhemmet ligger precis intill festlokalen och består av stugor med våningssängar där du själv tar med dig sängkläder. Hur du bokar plats på vandrahemmet står i inbjudningskortet. Vandrarhemmet erbjuder även frukost.
 
           Vill du bo på hotell finns Norrköpings centrum som ligger ca 7 km från Abborreberg. Du kan hitta lämpliga boende på till exempel <a href="https://www.booking.com/">booking.com</a> eller <a href="https://www.hotels.com">hotels.com</a></p>
       </div>
       <div class="details">
         <i class="fas fa-gift"></i>
-        <h3 class="details-heading">Gåvor</h3>
+        <h3 class="details-heading" id="gifts">Gåvor</h3>
         <p>Vi har det mesta vi önskar och önskar oss endast bidrag till en bröllopsresa.</p>
       </div>
       <div class="details">
         <i class="fas fa-champagne-glasses"></i>
-        <h3 class="details-heading">Toastmaster & Toastmadamme</h3>
+        <h3 class="details-heading" id="toastmaster">Toastmaster & Toastmadamme</h3>
         <p>Våra eminenta toastmasters under kvällen kommer vara Frida och Lukas.</p>
         <p>Vill du hålla tal, spex eller göra något annat roligt under middagen? </p>
-        <p> Skicka då ett mejl till <a href="mailto: tm@amandamagnus2023.se">tm@amandamagnus2023.se</a>.</p>
+        <p> Skicka då ett mejl till <a href="mailto: tm@amandaochmagnus2023.se">tm@amandaochmagnus2023.se</a>.</p>
       </div>
       <div class="details">
         <i class="fas fa-fire"></i>
-        <h3 class="details-heading">Kvällen innan</h3>
+        <h3 class="details-heading" id="friday">Kvällen innan</h3>
         <p>Vi vill gärna få ut som mycket som möjligt av vår helg med er och vill därför kvällen innan bjuda in er till ett bröllopshäng där vi bjuder på lättare mat, dryck och lite aktiviteter. Mer information finner du i inbjudningskortet. </p>
         <p> Meddela i er anmälan om ni vill delta i detta under fredagskvällen.</p>
       </div>
       <div class="details">
         <i class="fas fa-comments"></i>
-        <h3 class="details-heading">Kontakta oss</h3>
+        <h3 class="details-heading" id="contact">Kontakta oss</h3>
         <p>Har du några frågor, funderingar eller något annat du undrar över inför vår stora dag?</p>
-        <p> Tveka inte att ta kontakt med oss på <a href="mailto: info@amandamagnus2023.se">info@amandaochmagnus2023.se</a></p>
+        <p> Tveka inte att ta kontakt med oss på <a href="mailto: info@amandaochmagnus2023.se">info@amandaochmagnus2023.se</a></p>
       </div>
       <div class="details">
         <i class="fas fa-reply"></i>
@@ -83,15 +99,5 @@
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTu_UZ0Wwmk58HKgJwrIGIaDyYzIKXSMT2mgPrbTU9cM-DhQ/viewform?embedded=true" class="rsvp-form" frameborder="0" marginheight="0" marginwidth="0">Läser in …</iframe>
       </div>
     </section>
-    <script src="./js/smooth-scroll.polyfills.min.js"></script>
-    <script defer>
-      var scroll = new SmoothScroll('a[href*="#"]');
-      var rsvpButton = document.getElementById('rsvpButton')
-      rsvpButton.addEventListener('click',hideButton,false);
-
-      function hideButton() {
-        rsvpButton.style.display = 'none';
-      }   
-    </script>
   </body>
 </html>
