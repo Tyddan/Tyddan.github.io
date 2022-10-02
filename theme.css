@@ -1,5 +1,5 @@
 *{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Pompiere', cursive;
     font-size: 16px;
     color: #222;
 }
@@ -7,30 +7,32 @@ html, body{
     margin: 0;
     height: 100vh;
     text-align: center;
+    background-color: snow;
 }
 .header{
-    background-image: url(./img/hero.jpeg);
+    background-image: url(./img/hemsida.png);
     background-repeat: no-repeat;
     background-position: 50% 60%;
     background-attachment: scroll;
     background-size: cover;
-    height: 40vh;
+    height: 425px;
     margin: 0;
-    padding-top: 60vh;
+    padding-top: 10vh;
 }
 .heading {
     color: #ffffff;
     display: block;
-    font-family: 'Caveat', cursive;
+    font-family: 'Pompiere', cursive;
     font-size: 6em;
     font-weight: normal;
     text-shadow: 0 0 10px #000;
+    padding-top: 15vh;
 }
 .heading-subtext{
     color: #fff;
     display: block;
-    font-family: 'Caveat', cursive;
-    font-size: .6em;
+    font-family: 'Pompiere', cursive;
+    font-size: .3em;
 }
 .fixed-button{
     background: rgba(20,20,20,.5);
@@ -63,7 +65,7 @@ html, body{
     padding: 1em 2.4em;
 }
 .sub-heading{
-    font-family: 'Caveat', cursive;
+    font-family: 'Pompiere', cursive;
     font-size: 3em;
     margin-top: 2em;
 }
