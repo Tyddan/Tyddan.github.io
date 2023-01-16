@@ -145,7 +145,7 @@ html, body{
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: saddlebrown;
+    background-color: black;
     transition-duration: .25s;
 }
 .menu__btn > span::before {
