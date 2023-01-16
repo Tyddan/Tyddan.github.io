@@ -16,26 +16,23 @@
         <span class="heading-subtext"> 27 maj 2023</span>
       </h1>
     </header>
-    
-    <div class="sidebarContainer" id="sidebarContainer">
-      <input id="openSideMenu" type="checkbox" class="openSideMenu"/>
-      <label class="menu__btn" for="openSideMenu">
-        <span></span>
-      </label>
-  
-      <ul class="menu__box">
-        <li onclick="hideSidebar()"><a class="menu__item" href="#about">Om bröllopet</a></li>
-        <li onclick="hideSidebar()"><a class="menu__item" href="#details">Detaljer</a></li>
-        <li onclick="hideSidebar()"><a class="menu__item" href="#schema">Hålltider</a></li>
-        <li onclick="hideSidebar()"><a class="menu__item" href="#accomodation">Boende</a></li>
-        <li onclick="hideSidebar()"><a class="menu__item" href="#gifts">Gåvor</a></li>
-        <li onclick="hideSidebar()"><a class="menu__item" href="#toastmaster">Toastmaster & Toastmadamme</a></li>
-        <li onclick="hideSidebar()"><a class="menu__item" href="#friday">Kvällen innan</a></li>
-        <li onclick="hideSidebar()"><a class="menu__item" href="#contact">Kontakt</a></li>
-        <li onclick="hideSidebar()"><a class="menu__item" href="#rsvp">OSA</a></li>
-      </ul>
-    </div>
-    
+
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="hide()">X</a>
+      <a href="#about">Om bröllopet</a>
+      <a href="#details">Detaljer</a>
+      <a href="#schema">Hålltider</a>
+      <a href="#accomodation">Boende</a>
+      <a href="#gifts">Gåvor</a>
+      <a href="#toastmaster">Toastmaster & Toastmadamme</a>
+      <a href="#friday">Kvällen innan</a>
+      <a href="#contact">Kontakt</a>
+      <a href="#rsvp">OSA</a>
+   </div>
+   <div id="content">
+      <button class="openbtn" id="openbtn" onclick="show()">☰</button>
+   </div>
+
     <section class="section">
       <h2 class="sub-heading" id="about">Om bröllopet</h2>
       <p>Efter 8 år tillsammans kommer vi säga JA till resten av livet tillsammans. Den 27 maj vill vi dela vår glädje med er genom att bjuda in till bröllop vid natursköna Abborreberg,</p>

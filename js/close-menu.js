@@ -1,10 +1,9 @@
-function hideSidebar() {
-    document.getElementById('openSideMenu').checked = false;
-  }
-  
-  var sideIconToggle = document.getElementById('sidebarContainer');
-  
-  document.addEventListener('click', function(event) {
-    if (!sidebarContainer.contains(event.target))
-      hideSidebar();
-  });
+function show() {
+    document.getElementById("mySidebar").style.width = "230px";
+    document.getElementById("content").style.display = "none";
+ }
+ 
+function hide() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("content").style.display = "block";
+ }
